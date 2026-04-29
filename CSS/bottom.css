@@ -1,0 +1,52 @@
+:root{
+    --sidebar: #2F5D73;
+    --main-content: #F3F3F3;
+    --pink-coral: #F28C8C;
+    --hijau-khas: #76D7C4;
+    --kuning-khas: #DFAF3A;
+    --gap-main-grid: 20px;
+    --border-radius: 18px;
+    --padding-univ: 5%;
+}
+
+
+.judul-download{
+    color: var(--main-content);
+    align-self: flex-start;
+}
+.deskripsi-kuantiti{
+    font-size: small;
+}
+.quantity{
+    font-size: 22px;
+    text-align: center;
+}
+.bottom{
+    box-sizing: border-box;
+}
+.downloads{
+    box-sizing: border-box;
+    width: 1fr;
+    height: 1fr;
+    padding: var(--padding-univ);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-download{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    box-sizing: border-box;
+
+}
+.block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.bar{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    background-color: var(--main-content);
+}

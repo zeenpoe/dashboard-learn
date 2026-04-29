@@ -1,0 +1,58 @@
+:root{
+    --sidebar: #2F5D73;
+    --main-content: #F3F3F3;
+    --pink-coral: #F28C8C;
+    --hijau-khas: #76D7C4;
+    --kuning-khas: #DFAF3A;
+    --gap-main-grid: 20px;
+    --border-radius: 18px;
+    --padding-univ: 5%;
+}
+
+.statistik{
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detail-statistik-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.desk-head-detail{
+    color: var(--pink-coral);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.line{
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: var(--pink-coral);
+    align-self: flex-end;
+}
+
+
+.detail-statistik-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.line-down{
+    height: 5px;
+    width: 100%;
+    background-color: var(--hijau-khas);
+    border-radius: 12.5px;
+}
+.month{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}

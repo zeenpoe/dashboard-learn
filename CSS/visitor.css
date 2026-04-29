@@ -1,0 +1,52 @@
+:root{
+    --sidebar: #2F5D73;
+    --main-content: #F3F3F3;
+    --pink-coral: #F28C8C;
+    --hijau-khas: #76D7C4;
+    --kuning-khas: #DFAF3A;
+    --gap-main-grid: 20px;
+    --border-radius: 18px;
+    --padding-univ: 5%;
+}
+
+.visitor{
+    padding: var(--padding-univ);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.judul-visitor{
+    color: var(--main-content);
+}
+.contain-device{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7px;
+}
+.item-device{
+    font-size: medium;
+    color: var(--main-content);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.tiny{
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: var(--sidebar);
+    border-radius: 50%;
+}
+#android{
+    background-color: var(--kuning-khas);
+}
+#others{
+    background-color: var(--main-content);
+}
+#ios{
+    background-color: var(--pink-coral);
+}

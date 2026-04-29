@@ -1,0 +1,49 @@
+:root{
+    --sidebar: #2F5D73;
+    --main-content: #F3F3F3;
+    --pink-coral: #F28C8C;
+    --hijau-khas: #76D7C4;
+    --kuning-khas: #DFAF3A;
+    --gap-main-grid: 20px;
+    --border-radius: 18px;
+    --padding-univ: 5%;
+}
+
+
+
+
+.calendar{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.judul-kalender{
+    color: var(--sidebar);
+}
+.box-kalender{
+    width: 50%;
+    padding: var(--padding-univ);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.kotak:not(.kotak-red){
+    background-color: var(--hijau-khas);
+}
+.kotak{
+    width: 100%;
+    height: 100%;
+}
+.kotak-red{
+    background-color: var(--pink-coral);
+}
+.grid-kotak{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 100%;
+    width: 100%;
+    gap: 6px;
+}

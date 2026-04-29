@@ -1,0 +1,40 @@
+:root{
+    --sidebar: #2F5D73;
+    --main-content: #F3F3F3;
+    --pink-coral: #F28C8C;
+    --hijau-khas: #76D7C4;
+    --kuning-khas: #DFAF3A;
+    --gap-main-grid: 20px;
+    --border-radius: 18px;
+    --padding-univ: 5%;
+}
+
+.task{
+    padding: 5%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.task .jdl{
+    color: white;
+    font-size: 18px;
+}
+.container{
+    overflow-y: scroll;
+    box-sizing: border-box;
+    height: 125px;
+}
+.card-task{
+    height: fit-content;
+}
+.task-judul{
+    font-size: 25px;
+    color: white;
+}
+.deskripsi-task{
+    font-size: 15px;
+    display: inline-block;
+    width: 75%;
+    color: white;
+}
